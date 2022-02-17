@@ -1,0 +1,40 @@
+IT 313 - Community Projects
+Name:  Matthew McCreary
+Date:  2/17/2022
+
+Project Name :  Wildfire Detection System
+
+
+Hardware:
+    - raspberry pi
+    - environment sensors, such as temp, humidity, moistness, UV index??
+    - Desktop 
+    - Database Server
+    - Encasement
+    - Battery (power source)
+    - wind direction sensor??
+
+Software:
+    - program controlling data flow
+    - program controlling data cleaning
+    - program controlling data handling and computation
+    - website
+    - api??
+
+
+Architecture:
+    - there will be dispersed raspberry pis forming a "map" of a geographical location
+    - these Pis are going to be used as data collectors and will be sending the information that is gathered.
+    - there will be a data handler on the backend, this is the destination point where the data is being sent.
+    - the backend processing power is going to take the data from the Pis, and record data on a set time interval.
+    - once the data has been read by the backend computer, it will append to a database (SQL vs noSQL)
+        - the purpose of this is to use the historical data for potential wildfire conditions
+        - if there is a warning where wild fires are possible, send our a warning to the users of the system?
+
+
+Back (Cole):
+    -  What are you doing this week?
+Middle (Ethan):
+    - What are you doing this week?
+Front (Matt):
+    - What are you doing this week?
